@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    max-width: 100%;
+    background-color: #ecedfb;
+    overflow-x: hidden !important;
+    overflow-y: scroll;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Nib Pro';
+    src: url('NibPro-Light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: block;
+}
+
+#content {
+    margin: 0 auto;
+    position: relative;
+    padding: 2em 1em 2em 1em;
+    max-width: 768px;
+    text-align: left;
+    font-family: 'Nib Pro';
+    font-weight: 100;
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+
+.anchor {
+    display: inline-block;
+    width: 1.15em;
+    vertical-align: text-bottom;
+}
+
+a {
+    text-decoration: none;
+    color: #031dff;
+
+}
+
+a:hover {
+    border-bottom: 1px solid;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 667px) {
+    #content {
+        font-size: 1.25em;
+        line-height: 1.65em;
+    }
+}
